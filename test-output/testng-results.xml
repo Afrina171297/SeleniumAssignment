@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-27T14:45:27Z" name="Default suite" finished-at="2022-03-27T14:47:36Z" duration-ms="129293">
+    <groups>
+    </groups>
+    <test started-at="2022-03-27T14:45:27Z" name="Default test" finished-at="2022-03-27T14:47:36Z" duration-ms="129293">
+      <class name="com.test.tests.Homepagetest">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:com.test.tests.Homepagetest@6c0d7c83]" started-at="2022-03-27T20:45:27Z" name="StartBrowser" finished-at="2022-03-27T20:45:47Z" duration-ms="20141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method signature="Verifylinks()[pri:0, instance:com.test.tests.Homepagetest@6c0d7c83]" started-at="2022-03-27T20:45:47Z" name="Verifylinks" finished-at="2022-03-27T20:47:35Z" duration-ms="108472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifylinks -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:com.test.tests.Homepagetest@6c0d7c83]" started-at="2022-03-27T20:47:35Z" name="quitbrowser" finished-at="2022-03-27T20:47:36Z" duration-ms="656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- com.test.tests.Homepagetest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
