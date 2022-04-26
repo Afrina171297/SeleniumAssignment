@@ -47,7 +47,6 @@ jobs:
        run: |
         echo what is this directory?
         ls
-        echo
         echo is java installed?
         java -version
-        echo
+        
