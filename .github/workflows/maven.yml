@@ -43,3 +43,11 @@ jobs:
    
      - name: Build with Maven
        run: mvn -B package --file pom.xml
+     - name: run multiple commands
+       run: |
+        echo what is this directory?
+        ls -a
+        echo
+        echo is java installed?
+        java -version
+        echo
