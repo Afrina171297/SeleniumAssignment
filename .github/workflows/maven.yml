@@ -45,7 +45,7 @@ jobs:
        run: mvn -B package --file pom.xml
      - name: run multiple commands
        run: |
-        echo what is this directory?
+        echo what is in this directory?
         ls
         echo is java installed?
         java -version
