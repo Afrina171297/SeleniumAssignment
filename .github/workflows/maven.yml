@@ -77,6 +77,10 @@ jobs:
         gradle --version
         echo is git installed?
         git --version
+        echo $ANDROID_SDK_ROOT
+        whoami
+        env
+        df
         
      
    
