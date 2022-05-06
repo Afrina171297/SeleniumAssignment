@@ -49,6 +49,8 @@ jobs:
         ls
         echo is java installed?
         java -version
+        echo selenium jar
+        echo $SELENIUM_JAR_PATH
         
   build-on-macos:
   
