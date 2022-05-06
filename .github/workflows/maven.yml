@@ -85,6 +85,10 @@ jobs:
         env
         echo disc fragments
         df
+        echo selenium jar
+        echo $SELENIUM_JAR_PATH
+        echo workspace location
+        echo $RUNNER_WORKSPACE
         
      
    
