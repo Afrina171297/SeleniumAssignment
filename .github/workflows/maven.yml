@@ -56,6 +56,13 @@ jobs:
         ls
         echo is java installed?
         java -version
+     - name: set up cache
+       uses: actions/cache@v2
+       with:
+        path: ~/.m2
+        key: ${{runner.os}}-m2-{{hashfiles('**/pom.xml)}}
+        restore-keys: ${{runner.os}}-m2
+        
        
         
   build-on-macos:
