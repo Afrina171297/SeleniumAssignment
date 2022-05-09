@@ -67,7 +67,6 @@ jobs:
         cache: maven
      - name: Step 3 - Install firefox
        run: chmod +x install-firefox.sh
-   
      - name: Step 4 - Build with Maven
        run: mvn -B package --file pom.xml
      - name: Step 5 - what is in this directory?
