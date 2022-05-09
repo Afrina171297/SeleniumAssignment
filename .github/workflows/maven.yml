@@ -27,6 +27,8 @@ jobs:
       run: |
        mvn -B package --file pom.xml
        echo $SELENIUM_JAR_PATH
+    - name: run sh file
+      run: sh ./git-script.sh
       
       
   build-on-windows-and-firefox:
