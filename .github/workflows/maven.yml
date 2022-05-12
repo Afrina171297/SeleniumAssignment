@@ -10,7 +10,7 @@ on:
 jobs:
   build-on-ubuntu-and-chrome:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest #2
 
     steps:
     - uses: actions/checkout@v1
