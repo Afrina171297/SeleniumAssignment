@@ -4,6 +4,7 @@
 name: Java CI/CD practice with maven
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
 
